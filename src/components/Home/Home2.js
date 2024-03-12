@@ -19,28 +19,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Here is an efficient way of learning more info about me and the projects i have contributed to or created myself
+            Here's an effective approach to discover more about me and the projects I've contributed to or built myself.
               <br />
-              <br />I am fluent in classics like
+              <br />My strong suit is Web Api Development with technologies like
               <i>
                 <b className="purple"> .NET Core/C#, SQL and Java </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new&nbsp;
+              My interests involve&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products</b> and
-                lately i am really intrigued with webscraping and automation related solutions{" "}
+                <b className="purple">Web Tech and Products, AI and IoT related technologies.</b>
+                &nbsp;Recently, I have developed a keen interest in webscraping and automation related solutions{" "}
                 <b className="purple">
                   
                 </b>
               </i>
               <br />
               <br />
-              I also apply my knowledge of <b className="purple">
+              I'm also using my knowledge of  <b className="purple">
                   {" "}
                   React
-                </b> whenever needed to build a vercatile frontend for my projects
+                </b> to build a flexible frontend for my projects whenever necessary.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -52,13 +52,10 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/AlexKaloudis"
+                  href="https://github.com/alexkaloudis"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -8,14 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Alexandros Kaloudis </span>
-            from <span className="purple"> Larisa, Greece.</span>
+            Hi, I am <span className="purple">Alex</span>
             <br />
-            I live in Thessaloniki and currently looking for a job as a Software Engineer/Developer.
+            I live in Thessaloniki and currently looking for new opportunities in the Software Engineering Industry.
             <br />
-              I am soon graduating with Bachelor in Information Engineering with specialization in Software Engineering at IHU Thessaloniki
+              Moreover, I will be soon concluding my studies in Information Engineering with specialization in Software Engineering at IHU Thessaloniki.
             <br />
-              One of my aspirations is to be a DevOps engineer as a transition from Software Engineering
+            Although I have not yet received my degree, I have accrued working experience in the field of Software Engineering.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
