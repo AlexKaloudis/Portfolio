@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/AkLogo.png";
-import { NavLink } from "react-router-dom";
+import {NavLink, Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -34,11 +34,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <NavLink to="/">
+        <Nav.Link as={Link} to="/">
           <Navbar.Brand className="d-flex">
             <img src={logo} className="img-fluid logo" alt="brand" />
           </Navbar.Brand>
-        </NavLink>
+        </Nav.Link>
         
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -53,22 +53,24 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <NavLink to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </NavLink>
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <NavLink
+              <Nav.Link
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </NavLink>
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <NavLink
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -76,16 +78,17 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
-              </NavLink>
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <NavLink
+              <Nav.Link
+                as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </NavLink>
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
