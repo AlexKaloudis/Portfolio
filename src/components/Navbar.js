@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -38,11 +38,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <NavLink to="/">
+        {/* <NavLink to="/"> */}
           <Navbar.Brand className="d-flex">
             <img src={logo} className="img-fluid logo" alt="brand" />
           </Navbar.Brand>
-        </NavLink>
+        {/* </NavLink> */}
         
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
